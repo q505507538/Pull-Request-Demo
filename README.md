@@ -16,5 +16,34 @@
 
 ![enter description here][2]
 
+绑定远端仓库并Push
+
+    git remote add origin git@github.com:zhenhappy/Pull-Request-Demo.git
+    git push origin master
+
+![enter description here][3]
+
+然后切换到用户q505507538, 去Fork用户zhenhappy的项目
+然后克隆到他本地
+
+    git clone git@github.com:q505507538/Pull-Request-Demo.git
+
+这时用户q505507538这边也有h1,h2这两个版本
+新建一个分支add_logo
+
+    git checkout -b add_logo
+
+![enter description here][4]
+
+这时候继续编辑修改,得到L1,L2两个版本
+
+![enter description here][5]
+
+
+
+
   [1]: ./images/1443077250671.jpg "1443077250671.jpg"
   [2]: ./images/1443077332128.jpg "1443077332128.jpg"
+  [3]: ./images/1443077702234.jpg "1443077702234.jpg"
+  [4]: ./images/1443080775460.jpg "1443080775460.jpg"
+  [5]: ./images/1443080824333.jpg "1443080824333.jpg"
