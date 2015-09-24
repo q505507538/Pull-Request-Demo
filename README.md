@@ -54,7 +54,7 @@ Push到远端仓库
 ![enter description here][7]
 
 切换回zhenhappy用户, 去接收这个Pull Request
-但是实际的开发可能会更复杂, 可能在接收这个Pull Request的时候已经有版本提交了
+但是实际的开发可能会更复杂, 可能在接收这个Pull   Request的时候已经有版本提交了
 为了模拟这种情况, 在zhanhappy这边提交一个h3的版本
 
     edit,edit;git commit
