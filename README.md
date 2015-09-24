@@ -85,6 +85,16 @@ fetch 他的仓库
 
     test,test;git checkout master;git merge test
 
+删除test分支
+
+    git branch -D test
+
+提交到远端master分支
+
+    git push origin master
+
+![enter description here][10]
+
 
   [1]: ./images/1443077250671.jpg "1443077250671.jpg"
   [2]: ./images/1443077332128.jpg "1443077332128.jpg"
@@ -95,3 +105,4 @@ fetch 他的仓库
   [7]: ./images/1443083278023.jpg "1443083278023.jpg"
   [8]: ./images/1443083515886.jpg "1443083515886.jpg"
   [9]: ./images/1443083906149.jpg "1443083906149.jpg"
+  [10]: ./images/1443084656979.jpg "1443084656979.jpg"
