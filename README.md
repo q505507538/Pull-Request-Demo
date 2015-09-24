@@ -3,6 +3,8 @@
 
     mkdir Pull-Request-Demo;cd Pull-Request-Demo;git init
 这时会在Pull-Request-Demo目录里面生成一个.git的隐藏目录
+
+
 接下来编辑README文件,并提交版本h1
 
 
@@ -24,11 +26,15 @@
 ![enter description here][3]
 
 然后切换到用户q505507538, 去Fork用户zhenhappy的项目
+
+
 然后克隆到他本地
 
     git clone git@github.com:q505507538/Pull-Request-Demo.git
 
 这时用户q505507538这边也有h1,h2这两个版本
+
+
 新建一个分支add_logo
 
     git checkout -b add_logo
@@ -54,7 +60,13 @@ Push到远端仓库
 ![enter description here][7]
 
 切换回zhenhappy用户, 去接收这个Pull Request
-但是实际的开发可能会更复杂, 可能在接收这个Pull   Request的时候已经有版本提交了
+
+
+但是实际的开发可能会更复杂, 可能在接收这个Pull
+
+Request的时候已经有版本提交了
+
+
 为了模拟这种情况, 在zhanhappy这边提交一个h3的版本
 
     edit,edit;git commit
@@ -96,6 +108,8 @@ fetch 他的仓库
 ![enter description here][10]
 
 接下来close Pull Request, 这样就完成一次Pull Request
+
+
 那么q505507538用户就可以在他本地删除add_logo分支,同时也可删除远端的分支
 
     git checkout master;git branch -D add_logo;git push origin :add_logo;
@@ -109,6 +123,8 @@ fetch 他的仓库
     git checkout master;git pull upstream master
 
 经常的往上游分支拽东西是一个贡献者应当时常注意的事情
+
+
 这也为了下一步的贡献打下基础
 
   [1]: ./images/1443077250671.jpg "1443077250671.jpg"
