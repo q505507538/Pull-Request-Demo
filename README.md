@@ -95,6 +95,21 @@ fetch 他的仓库
 
 ![enter description here][10]
 
+接下来close Pull Request, 这样就完成一次Pull Request
+那么q505507538用户就可以在他本地删除add_logo分支,同时也可删除远端的分支
+
+    git checkout master;git branch -D add_logo;git push origin :add_logo;
+
+在q505507538这个用户这边添加zhenhappy仓库地址
+
+    git remote add upstream git@github.com:zhenhappy/Pull-Request-Demo.git
+
+跳转到master分支,抓取上游的分支
+
+    git checkout master;git pull upstream master
+
+经常的往上游分支拽东西是一个贡献者应当时常注意的事情
+这也为了下一步的贡献打下基础
 
   [1]: ./images/1443077250671.jpg "1443077250671.jpg"
   [2]: ./images/1443077332128.jpg "1443077332128.jpg"
